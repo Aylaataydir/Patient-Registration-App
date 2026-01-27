@@ -10,8 +10,6 @@ const PatientCard = ({ patient, deleteHandle, handleToggleComplete }) => {
 
 
 
-
-
   return (
 
     <div key={id} className="patient-card" >

@@ -1,7 +1,6 @@
 import DoctorCard from "./DoctorCard"
 
 
-
 const DoctorList = ({ doctorsData, setSelectedDoctor }) => {
 
 

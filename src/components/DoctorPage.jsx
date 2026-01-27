@@ -27,7 +27,7 @@ const DoctorPage = ({ selectedDoctor, setPatientsData, patientsData, setSelected
             }
 
             setPatientsData((prev) => [...prev, newPatient])
-            // console.log(newPatient)
+          
         }
 
     }
