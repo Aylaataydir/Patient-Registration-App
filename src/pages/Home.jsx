@@ -13,7 +13,7 @@ const Home = () => {
   const [editing, setEditing] = useState(null)
   const [patientsData, setPatientsData] = useState(() => {
     const savedData = localStorage.getItem("PDATA");
-    return savedData ? JSON.parse(savedData) : [pData];
+    return savedData ? JSON.parse(savedData) : pData;
   });
 
 
