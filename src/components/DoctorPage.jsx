@@ -9,7 +9,7 @@ const DoctorPage = ({ selectedDoctor, setPatientsData, patientsData, setSelected
     const [nameValue, setNameValue] = useState("")
     const [dateValue, setDateValue] = useState("")
 
-    const { id, doctorName, doctorImg } = selectedDoctor
+    const { doctorName } = selectedDoctor
 
 
     const handleSubmit = (e) => {

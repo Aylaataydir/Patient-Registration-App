@@ -1,6 +1,5 @@
 
 import { MdCancel } from "react-icons/md";
-import { FaRegEdit } from "react-icons/fa";
 import { CiCircleCheck } from "react-icons/ci";
 
 const PatientCard = ({ patient, deleteHandle, handleToggleComplete }) => {
