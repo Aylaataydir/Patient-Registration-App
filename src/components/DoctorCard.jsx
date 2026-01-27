@@ -9,7 +9,7 @@ const DoctorCard = ({ doctor, setSelectedDoctor, showButton = true, layout = "ve
         return (
             <div className='doctor-container doctor-container-horizontal'>
                 <img src={doctor.doctorImg} alt="" />
-                <div>
+                <div className=''>
                     <h5 className='doctor-name'>{doctor.doctorName}</h5>
                     <p className='title'>{doctor.title}</p>
                 </div>
@@ -20,8 +20,11 @@ const DoctorCard = ({ doctor, setSelectedDoctor, showButton = true, layout = "ve
     return (
         <div className='doctor-container'>
             <img src={doctor.doctorImg} alt="" />
-            <h5 className='doctor-name'>{doctor.doctorName}</h5>
-            <p className='title'>{doctor.title}</p>
+            <div>
+                <h5 className='doctor-name'>{doctor.doctorName}</h5>
+                <p className='title'>{doctor.title}</p>
+            </div>
+
             {showButton && (
                 <button
                     onClick={() => setSelectedDoctor(doctor)}>Add Patient</button>
