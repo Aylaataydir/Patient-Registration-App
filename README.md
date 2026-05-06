@@ -1,9 +1,6 @@
 
 # Patient Registration App
 
-## Project Purpose
-This application is designed to easily manage patient registrations and doctor assignments in a hospital or clinic environment. Users can view the list of doctors, add new patients to doctors, and track the status (pending/completed) of existing patients.
-
 ## Technologies Used
 - **React.js**: The modern JavaScript library that forms the basis of the application.
 - **Custom CSS**: For personalizing the look and feel of the application.
