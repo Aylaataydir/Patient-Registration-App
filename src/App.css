@@ -87,6 +87,8 @@ body {
   padding-bottom: 5rem;
   background: linear-gradient(135deg, #f6fff8ff 0%, #eaf4f4ff 100%);
   min-height: 100vh;
+  max-width: 87.5rem;
+  margin-inline:auto;
 }
 
 button {

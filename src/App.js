@@ -5,7 +5,7 @@ import "./App.css"
 import Home from './pages/Home'
 const App = () => {
   return (
-    <div className="container">
+    <div>
     <Home/>
     </div>
   )
